@@ -150,6 +150,30 @@ a{
     background-position: center 0px;
 }
 
+/* PRODUCTO DESTACADO */
+.prod_dest{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 600px;
+    color: white;
+    background-image: url(../assets/destacado_index.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position: center -300px;
+    align-items:flex-start;
+    justify-content: end;
+    padding: 2rem 2rem;
+    margin-bottom: 4rem;
+}
+.prod_dest h2{
+    font-size: 3rem;
+    font-weight: 800;
+    background-color: black;
+    padding: 5px 20px;
+}
+
+
 /* PORTADA CONTACTO */
 #port-contacto{
     background-image: url(../assets/port_contacto.jpeg);
