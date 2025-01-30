@@ -1,0 +1,179 @@
+/*Reset de CSS*/
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+html{
+    font-family: "Poppins", serif;
+    font-weight: 400;
+    font-style: normal;
+    color: #292929;
+}
+h1{
+    font-family: "Poppins", serif;
+    font-weight: 800;
+    font-style: normal;
+    text-transform: uppercase;
+}
+h2{
+    font-family: "Poppins", serif;
+    font-weight: 700;
+    font-style: normal;
+}
+a:visited{
+    color:#292929
+}
+a{
+    text-decoration: none;
+    color: #292929;
+}
+
+.portada img{
+    width: 50%;
+}
+
+/* NAV MENU */
+
+.site-nav{
+    position: fixed;
+    background-color: white;
+    width: 100%;
+}
+
+.menu{
+    display: flex;
+    margin: 1rem 0;
+    justify-content: center;
+    list-style-type: none;
+    text-transform: uppercase;
+    font-weight: 700;
+}
+
+.menu li{
+    margin: 0 1rem;
+}
+
+/* PORTADA */
+.portada-index{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 800px;
+    color: white;
+    background-image: url(../assets/port_index.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position: center -300px;
+    align-items:flex-start;
+    justify-content: center;
+    padding-left: 2rem;
+}
+
+.portada-index h1{
+    font-size: 8rem;
+
+}
+.portada-index h2{
+    font-size: 3rem;
+    font-weight: 00;
+    text-transform: uppercase;
+}
+
+/* GALERIA POR PERSONA */
+.galeria{
+    display: flex;
+    justify-content: center;
+    margin: 2rem;
+    text-align: center;
+    
+}
+.galeria img{
+    width: 400px;
+}
+.galeria h2{
+    font-weight: 700;
+    text-transform: uppercase;
+}
+.galeria article{
+    margin: 5rem;
+}
+
+/* PORTADAS */
+.portada-pages{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 800px;
+    color: white;
+    justify-content: end;
+    align-items: center;
+    padding-left: 2rem;
+}
+
+.portada-pages h2{
+    position: relative;
+    top: 40px;
+    font-size: 3rem;
+    text-transform: uppercase;
+    font-weight: 800;
+}
+
+.portada-pages h1{
+    font-size: 10rem;
+}
+.txt_page{
+    margin-bottom: 4rem;
+}
+
+/* PORTADA MUJER */
+#port-mujer{
+    background-image: url(../assets/port_mujer.webp);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position: center 0px;
+}
+
+/* PORTADA HOMBRE */
+#port-hombre{
+    background-image: url(../assets/port_hombre.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position: center 0px;
+}
+
+/* PORTADA NIÑOS */
+#port-ninios{
+    background-image: url(../assets/port_niños.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position: center 0px;
+}
+
+/* PORTADA CONTACTO */
+#port-contacto{
+    background-image: url(../assets/port_contacto.jpeg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position: center 0px;
+}
+
+#suc{
+    text-align: center;
+    font-size: 5rem;
+    text-transform: uppercase;
+}
+
+.ubi{
+    display: flex;
+    text-align: center;
+    justify-content: space-evenly;
+}
+
+.ubi div iframe{
+    border-radius: 10px;
+}
+
+footer{
+    background-color: #b1b1b1;
+}
