@@ -33,6 +33,31 @@ a{
     width: 50%;
 }
 
+/* BOTON */
+.boton {
+    padding: 10px 20px;
+    margin: 2rem;
+    background-color: black;
+    cursor: pointer;
+    color: white;
+  }
+  
+  .boton:hover {
+    background-color: #535353;
+  }
+  
+  .boton:active {
+    background-color: #ffffff;
+  }
+  .boton a:active{
+    color: black;
+  }
+  .boton a{
+    color: white;
+    font-weight: 800;
+  }
+
+
 /* NAV MENU */
 
 .site-nav{
@@ -156,11 +181,10 @@ a{
     flex-direction: column;
     width: 100%;
     height: 600px;
-    color: white;
-    background-image: url(../assets/destacado_index.jpg);
-    background-repeat: no-repeat;
     background-size: 100%;
     background-position: center -300px;
+    background-repeat: no-repeat;
+    color: white;
     align-items:flex-start;
     justify-content: end;
     padding: 2rem 2rem;
@@ -171,6 +195,64 @@ a{
     font-weight: 800;
     background-color: black;
     padding: 5px 20px;
+}
+
+/* PRODUCTO DESTACADO INDEX */
+#prodest-index{
+    background-image: url(../assets/destacado_index.jpg);
+}
+/* PRODUCTO DESTACADO MUJER */
+#prodest-mujer{
+    background-image: url(../assets/prod_dest_mujer.jpg);
+}
+/* PRODUCTO DESTACADO HOMBRE */
+#prodest-hombre{
+    background-image: url(../assets/prod_dest_hombre.webp);
+}
+/* PRODUCTO DESTACADO NIÑOS */
+#prodest-ninios{
+    background-image: url(../assets/prod_dest_hombre.webp);
+}
+
+
+/* PRODUCTO EN PROMOCIÓN */
+.promo{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 600px;
+    color: white;
+    background-image: url(../assets/promo.webp);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position: center -300px;
+    align-items:flex-start;
+    justify-content: end;
+    padding: 2rem 2rem;
+    margin-bottom: 4rem;
+}
+.promo h2{
+    font-size: 3rem;
+    font-weight: 800;
+    background-color: black;
+    padding: 5px 20px;
+}
+
+/* PRODUCTO PROMOCIÓN INDEX */
+#promo-index{
+    background-image: url(../assets/promo.webp);
+}
+/* PRODUCTO PROMOCIÓN MUJER */
+#promo-mujer{
+    background-image: url(../assets/promo_mujer.jpeg);
+}
+/* PRODUCTO PROMOCIÓN HOMBRE */
+#promo-hombre{
+    background-image: url(../assets/promo_hombre.png);
+}
+/* PRODUCTO PROMOCIÓN NIÑOS */
+#promo-ninios{
+    background-image: url(../assets/prod_dest_niños.avif);
 }
 
 
