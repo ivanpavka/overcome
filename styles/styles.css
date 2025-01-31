@@ -182,7 +182,6 @@ a{
     width: 100%;
     height: 600px;
     background-size: 100%;
-    background-position: center -300px;
     background-repeat: no-repeat;
     color: white;
     align-items:flex-start;
@@ -200,18 +199,22 @@ a{
 /* PRODUCTO DESTACADO INDEX */
 #prodest-index{
     background-image: url(../assets/destacado_index.jpg);
+    background-position: center -300px;
 }
 /* PRODUCTO DESTACADO MUJER */
 #prodest-mujer{
     background-image: url(../assets/prod_dest_mujer.jpg);
+    background-position: center -300px;
 }
 /* PRODUCTO DESTACADO HOMBRE */
 #prodest-hombre{
     background-image: url(../assets/prod_dest_hombre.webp);
+    background-position: center -300px;
 }
 /* PRODUCTO DESTACADO NIÑOS */
 #prodest-ninios{
     background-image: url(../assets/prod_dest_hombre.webp);
+    background-position: center -300px;
 }
 
 
@@ -225,7 +228,6 @@ a{
     background-image: url(../assets/promo.webp);
     background-repeat: no-repeat;
     background-size: 100%;
-    background-position: center -300px;
     align-items:flex-start;
     justify-content: end;
     padding: 2rem 2rem;
@@ -241,18 +243,22 @@ a{
 /* PRODUCTO PROMOCIÓN INDEX */
 #promo-index{
     background-image: url(../assets/promo.webp);
+    background-position: center -300px;
 }
 /* PRODUCTO PROMOCIÓN MUJER */
 #promo-mujer{
     background-image: url(../assets/promo_mujer.jpeg);
+    background-position: center -300px;
 }
 /* PRODUCTO PROMOCIÓN HOMBRE */
 #promo-hombre{
     background-image: url(../assets/promo_hombre.png);
+    background-position: center -500px;
 }
 /* PRODUCTO PROMOCIÓN NIÑOS */
 #promo-ninios{
-    background-image: url(../assets/prod_dest_niños.avif);
+    background-image: url(../assets/promo2_ninios.jpg);
+    background-position: center -300px;
 }
 
 
