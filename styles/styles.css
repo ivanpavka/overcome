@@ -43,7 +43,9 @@ a{
   
   .boton:hover {
     background-color: #535353;
+    transition: all 0.3s ease 0s;
     transform: scale(1.1);
+
   }
   
   .boton:active {
@@ -125,6 +127,7 @@ a{
 }
 
 .galeria-hijos:hover{
+    transition: all 0.3s ease 0s;
     transform: scale(1.1);
 }
 
