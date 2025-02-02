@@ -51,15 +51,22 @@
     </section>
     
     <!--FORMULARIO DE CONTACTO-->
-    <form action="/submit" method="post">
-        <label for="nombre">Nombre</label>
-        <input type="text" name="nombre" id="nombre">
+    <form class="form-contact" action="/submit" method="post">
+        <div class="nombre">
+            <label for="nombre">Nombre</label>
+            <input type="text" name="nombre" id="nombre">
+        </div>
+        <div class="asunto">
+            <label for="asunto">Asunto</label>
+            <input type="text" name="asunto" id="asunto">
+        </div>
+        <div class="mensaje">
+            <label for="mensaje">Mensaje</label>
+            <textarea name="mensaje" id="mensaje"></textarea>
+        </div>
+        <!-- <div class="img_form">
 
-        <label for="asunto">Asunto</label>
-        <input type="text" name="asunto" id="asunto">
-
-        <label for="mensaje">Mensaje</label>
-        <textarea name="mensaje" id="mensaje"></textarea>
+        </div> -->
     </form>
 
     <h2 id="suc">Sucursales</h2>

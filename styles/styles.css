@@ -39,11 +39,11 @@ a{
     margin: 2rem;
     background-color: black;
     cursor: pointer;
-    color: white;
   }
   
   .boton:hover {
     background-color: #535353;
+    transform: scale(1.1);
   }
   
   .boton:active {
@@ -122,6 +122,10 @@ a{
 }
 .galeria article{
     margin: 5rem;
+}
+
+.galeria-hijos:hover{
+    transform: scale(1.1);
 }
 
 /* PORTADAS */
@@ -204,7 +208,7 @@ a{
 /* PRODUCTO DESTACADO MUJER */
 #prodest-mujer{
     background-image: url(../assets/mujer/prod_dest_mujer.jpg);
-    background-position: center -300px;
+    background-position: center -400px;
 }
 /* PRODUCTO DESTACADO HOMBRE */
 #prodest-hombre{
@@ -213,7 +217,7 @@ a{
 }
 /* PRODUCTO DESTACADO NIÑOS */
 #prodest-ninios{
-    background-image: url(../assets/ninios/prod_dest_hombre.webp);
+    background-image: url(../assets/ninios/prod_dest_ninios.jpg);
     background-position: center -300px;
 }
 
@@ -247,7 +251,7 @@ a{
 /* PRODUCTO PROMOCIÓN MUJER */
 #promo-mujer{
     background-image: url(../assets/mujer/promo_mujer.jpeg);
-    background-position: center -300px;
+    background-position: center -100px;
 }
 /* PRODUCTO PROMOCIÓN HOMBRE */
 #promo-hombre{
@@ -268,7 +272,7 @@ a{
     background-size: 100%;
     background-position: center 0px;
 }
-
+/* UBICACIÓN DE SUCURSALES */
 #suc{
     text-align: center;
     font-size: 5rem;
@@ -283,7 +287,20 @@ a{
 
 .ubi div iframe{
     border-radius: 10px;
+} 
+
+
+/* FORMULARIO DE CONTACTO */
+.form-contact{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 300px;
+    background-image: linear-gradient(to left bottom, #057e9e, #009ab2, #00b6b9, #00d2b3, #12eb9f);
+    justify-content: center;
+    align-items: center;
 }
+
 
 footer{
     background-color: #b1b1b1;
