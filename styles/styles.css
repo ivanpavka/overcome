@@ -29,10 +29,6 @@ a{
     color: #292929;
 }
 
-.portada img{
-    width: 50%;
-}
-
 /* BOTON */
 .boton {
     padding: 10px 20px;
@@ -306,5 +302,14 @@ a{
 
 
 footer{
+    display: flex;
+    height: 200px;
     background-color: #b1b1b1;
+    justify-content: space-evenly;
+    align-items: center;
 }
+
+footer div i{
+    margin: 15px;
+}
+
